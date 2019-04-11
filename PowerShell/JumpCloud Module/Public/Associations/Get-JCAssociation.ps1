@@ -24,7 +24,7 @@ Function Get-JCAssociation
         # Build parameter array
         $Params = @()
         # Define the new parameters
-        If ($JCObjectCount -le 500)
+        If ($JCObjectCount -le 300)
         {
             if ($Type -notin ("ldap_server", "g_suite", "office_365"))
             {
